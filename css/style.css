@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.header>img {
+    margin-top: 5px;
+}
+
+.menu .list-menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu .list-menu li:hover {
+    color: rgb(221, 84, 30);
+}
+
+.menu .list-menu>li {
+    padding: 30px 30px;
+    font-size: larger;
+}
+
+.menu .list-menu li a {
+    text-decoration: none;
+    color: #494a4a;
+}
+
+.menu_list-submain {
+    position: absolute;
+    margin-left: 5px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.menu_list-submain li {
+    list-style: none;
+    border-bottom: 1px solid #d7d8d8;
+    display: none;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.products:hover .menu_list-submain li {
+    display: block;
+}
+
+.products:hover .menu_list-submain li i {
+    transform: rotate(-45deg);
+}
+
+.icon-button {
+    display: flex;
+    margin: 30px;
+}
+
+.icon-button i {
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+
+/* Slider */
+
+
+/* Categoty */
+
+.main {
+    max-width: 500px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}

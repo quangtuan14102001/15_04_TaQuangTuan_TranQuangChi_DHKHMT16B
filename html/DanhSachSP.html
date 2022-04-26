@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Sản Phẩm</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="../library/css/bootstrap.min.css">
+    <script src="../library/js/jquery.min.js"></script>
+    <script src="../library/js/jquery-3.6.0.min.js"></script>
+    <script src="../library/js/popper.min.js"></script>
+    <script src="../library/js/bootstrap.min.js"></script>
+
+
+
+
+    <style>
+        .col-md-8 {
+            height: 1450px;
+            border-right: 1px solid black;
+            background-color: rgb(237, 238, 238);
+        }
+
+        .col-md-4 {
+            /* background-color: rgb(255, 255, 255); */
+            margin-top: 15px;
+        }
+
+        .nav-link {
+            color: black;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        h5 {
+            margin: 7px 0 5px;
+        }
+
+        .col-md-6 {
+            margin-bottom: 20px;
+        }
+
+        .card {
+            height: 450px;
+        }
+
+        .tincn {
+            border-bottom: solid 1px black;
+        }
+
+        .tincn:hover {
+            background-color: rgb(241, 238, 233);
+        }
+
+        p {
+            font-family: sans-serif;
+        }
+
+        .tincn a {
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="col-md-12">
+        <div class="navbar navbar-expand-md navbar-light " style="background-color: rgb(0, 0, 0);">
+            <div class="container-fluid">
+                <a class="navbar-branch" href="../index.html">
+                    <img src="../img/logo.webp" alt="" height="80px">
+                </a>
+                <h3
+                    style="color: aliceblue; margin-left: 10px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; display:inline;">
+                    Gori VietNam</h3>
+                <input type="text" placeholder="Bạn tìm gì..." name="" id="" class="form-control mr-sm-2"
+                    style="width: 250px; margin:0 5px 0 15px">
+                <button class="btn btn-warning" type="submit">Tìm </button>
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon">
+                        <span class="navbar-toggler-icon"></span>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="./DangkyTV.html" class="nav-link" style="color:aliceblue">Đăng ký</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./DangnhapTV.html" class="nav-link" style="color:aliceblue">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./gioithieu.html" class="nav-link" style="color:aliceblue">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./Liên Hệ.html" class="nav-link" style="color:aliceblue">Hotline</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="./sitemap.html" class="nav-link" style="color:aliceblue">SiteMap</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class=" navbar navbar-expand-ms  navbar-primary" style="background-color: rgb(235, 194, 32);">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link ">ÁO THUN</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link ">QUẦN SHORT</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link ">TÚI ĐEO CHÉO</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link ">QUẦN DÀI</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="./AoKhoac.html" class="nav-link ">ÁO KHOÁC</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link ">ÁO SƠ MI</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link ">ÁO POLO</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link ">PHỤ KIỆN</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+    <!-- thêm slider vào đây -->
+    <div class="container mt-3">
+        <!-- <h2>Activate Carousel with JavaScript</h2> -->
+        <div id="myCarousel" class="carousel slide">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li class="item1 active"></li>
+                <li class="item2"></li>
+                <li class="item3"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/slider1.jpg" alt="Los Angeles" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/slider2.jpg" alt="Chicago" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/slider3.jpg" alt="New York" width="1100" height="500">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#myCarousel">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Activate Carousel
+            $("#myCarousel").carousel();
+
+            // Enable Carousel Indicators
+            $(".item1").click(function () {
+                $("#myCarousel").carousel(0);
+            });
+            $(".item2").click(function () {
+                $("#myCarousel").carousel(1);
+            });
+            $(".item3").click(function () {
+                $("#myCarousel").carousel(2);
+            });
+
+            // Enable Carousel Controls
+            $(".carousel-control-prev").click(function () {
+                $("#myCarousel").carousel("prev");
+            });
+            $(".carousel-control-next").click(function () {
+                $("#myCarousel").carousel("next");
+            });
+        });
+    </script>
+    <!-- <img src="../img/khuyen-mai.jpg" alt="" width="100%" height="70px"> -->
+
+    <div class="container">
+        <div class="row" style="text-align: center;">
+            <a href="#" class="btn btn-warning" style="margin: auto; margin-top: 15px; margin-bottom: 15px;">
+                DÁCH SÁCH CÁC SẢN PHẨM</a>
+        </div>
+        <!-- <div class="row">
+            <div class="col-md-6"><img src="../img/áo1.jpg" alt="" width="550px" height="400px"></div>
+            <div class="col-md-3"><img src="../img/áo2.jpg" alt="" height="400px"></div>
+            <div class="col-md-3"><img src="../img/túi1.jpg" alt="" height="400px"></div>
+        </div> -->
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h5 style="font-weight: bolder;">ÁO THUN</h5>
+                <div class="row">
+                    <a href="./chitietsp_2.html" style="text-decoration: none; color: #000;">
+                        <div class="col-md-4">
+                            <div class="card" style="height: 500px;">
+                                <img src="../img/áothun1.jpg" alt="" width="100%">
+                                <!-- <img src="/img/sale1.png" alt="" width="100px;" class="imgsale"> -->
+                                <div class="card-body">
+                                    <h5 class="card-title">Olsskull Hồng</h5>
+                                    <p class="card-text">200.000 đ</p>
+                                    <a href="#" class="btn btn-outline-primary">Mua</a>
+                                    <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./chitiet_sp3.html" style="text-decoration: none; color: #000;">
+                        <div class="col-md-4">
+                            <div class="card" style="height: 500px;">
+                                <img src="../img/áothun2.jpg" alt="" width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gori Season 07 / Đen</h5>
+                                    <p class="card-text">220.000 đ</p>
+                                    <a href="#" class="btn btn-outline-primary">Mua</a>
+                                    <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="col-md-4">
+                        <div class="card" style="height: 500px;">
+                            <img src="../img/season3.webp" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Gori Season 03 / Trắng</h5>
+                                <p class="card-text">240.000 đ</p>
+                                <a href="#" class="btn btn-outline-primary">Mua</a>
+                                <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p style="margin-top: 20px; background-color: rgb(236, 234, 232); color: rgb(236, 234, 232);">ddsfsfsf</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h5 style="font-weight: bolder;">ÁO SƠ MI</h5>
+                <div class="row">
+                    <a href="./chitiet_sp4.html" style="text-decoration: none; color: #000;">
+                        <div class="col-md-4">
+                            <div class="card" style="height: 500px;">
+                                <img src="../img/aosomi1.jpg" alt="" width="100%">
+                                <!-- <img src="/img/sale1.png" alt="" width="100px;" class="imgsale"> -->
+                                <div class="card-body">
+                                    <h5 class="card-title">Jacket caro đỏ lớn</h5>
+                                    <p class="card-text">470.000 đ</p>
+                                    <a href="#" class="btn btn-outline-primary">Mua</a>
+                                    <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./chitiet_sp5.html" style="text-decoration: none; color: #000;">
+                        <div class="col-md-4">
+                            <div class="card" style="height: 500px;">
+                                <img src="../img/aosomi2.jpg" alt="" width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cuban Shirt - Beige</h5>
+                                    <p class="card-text">320.000 đ</p>
+                                    <a href="#" class="btn btn-outline-primary">Mua</a>
+                                    <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="col-md-4">
+                        <div class="card" style="height: 500px;">
+                            <img src="../img/aosomi3.webp" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Cuban Shirt - Beige / New</h5>
+                                <p class="card-text">340.000 đ</p>
+                                <a href="#" class="btn btn-outline-primary">Mua</a>
+                                <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <p style="margin-top: 20px; background-color: rgb(236, 234, 232); color: rgb(236, 234, 232);">ddsfsfsf</p>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h5 style="font-weight: bolder;">QUẦN DÀI</h5>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="height: 500px;">
+                            <img src="../img//quandai1.jpg" alt="" width="100%">
+                            <!-- <img src="/img/sale1.png" alt="" width="100px;" class="imgsale"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">Quần ống suông - Cát</h5>
+                                <p class="card-text">445.000 đ</p>
+                                <a href="#" class="btn btn-outline-primary">Mua</a>
+                                <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="height: 500px;">
+                            <img src="../img/quandai2.webp" alt="" width="100%">
+                            <div class="card-body">
+                                <h5 class="card-title">Quần ống suông - Cam Nhạt</h5>
+                                <p class="card-text">420.000 đ</p>
+                                <a href="#" class="btn btn-outline-primary">Mua</a>
+                                <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card" style="height: 500px;">
+                            <img src="../img/quandai4.webp" alt="" width="100%">
+                            <div class="card-body">
+                                <h5 class="card-title">Gori Double Knee Pant - Đen</h5>
+                                <p class="card-text">455.000 đ</p>
+                                <a href="#" class="btn btn-outline-primary">Mua</a>
+                                <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="height: 500px;">
+                            <img src="../img/quandai5.jpg" alt="" width="100%">
+                            <div class="card-body">
+                                <h5 class="card-title">Gori Double Knee Pant - Nâu</h5>
+                                <p class="card-text">420.000 đ</p>
+                                <a href="#" class="btn btn-outline-primary">Mua</a>
+                                <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="height: 500px;">
+                            <img src="../img/quandai3.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Quần ống suông - Xanh Rêu</h5>
+                                <p class="card-text">340.000 đ</p>
+                                <a href="#" class="btn btn-outline-primary">Mua</a>
+                                <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p style="margin-top: 20px; background-color: rgb(236, 234, 232); color: rgb(236, 234, 232);">ddsfsfsf</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h5 style="font-weight: bolder;">ÁO KHOÁT</h5>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="height: 500px;">
+                            <img src="../img/aokhoac1.webp" alt="" width="100%">
+                            <!-- <img src="/img/sale1.png" alt="" width="100px;" class="imgsale"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">Áo Khoác Hoodie - Đen</h5>
+                                <p class="card-text">345.000 đ</p>
+                                <a href="#" class="btn btn-outline-primary">Mua</a>
+                                <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="height: 500px;">
+                            <img src="../img/aokhoac2.webp" alt="" width="100%">
+                            <div class="card-body">
+                                <h5 class="card-title">Áo Khoác Hoodie - Xám</h5>
+                                <p class="card-text">320.000 đ</p>
+                                <a href="#" class="btn btn-outline-primary">Mua</a>
+                                <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card" style="height: 500px;">
+                            <img src="../img/aokhoac3.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Áo Gori Tay Dài / New</h5>
+                                <p class="card-text">325.000 đ</p>
+                                <a href="#" class="btn btn-outline-primary">Mua</a>
+                                <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p style="margin-top: 20px; background-color: rgb(236, 234, 232); color: rgb(236, 234, 232);">ddsfsfsf</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h5 style="font-weight: bolder;">PHỤ KIỆN</h5>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="height: 500px;">
+                            <img src="../img/phukien1.webp" alt="" width="100%">
+                            <!-- <img src="/img/sale1.png" alt="" width="100px;" class="imgsale"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">Khăn Choàng - Đen</h5>
+                                <p class="card-text">145.000 đ</p>
+                                <a href="#" class="btn btn-outline-primary">Mua</a>
+                                <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="height: 500px;">
+                            <img src="../img/phukien3.webp" alt="" width="100%">
+                            <div class="card-body">
+                                <h5 class="card-title">Mũ Nam Nữ - Đen</h5>
+                                <p class="card-text">110.000 đ</p>
+                                <a href="#" class="btn btn-outline-primary">Mua</a>
+                                <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card" style="height: 500px;">
+                            <img src="../img/phukien4webp.webp" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Mũ Gori Nâu / New</h5>
+                                <p class="card-text">125.000 đ</p>
+                                <a href="#" class="btn btn-outline-primary">Mua</a>
+                                <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <img style="margin-top: 40px;" src="../img/BannerFooter.jpg" width="100%" alt="">
+    </div>
+    <div class="" style="background-color: rgb(243, 234, 234); height: 250px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"> <b> GORI VIETNAM</b>
+                    <br> Ra đời với mong muốn mang đến cho các bạn trẻ những bộ quần áo đơn giản nhưng vẫn thể hiện được
+                    cá tính riêng . Gori sẽ mang đến những sản phẩm không chỉ đẹp về mẫu mà còn chất lượng về chất vải
+                    cho bạn Gorier
+                </div>
+                <div class="col-md-3"> <b>THÔNG TIN LIÊN HỆ</b> <br> <b>Địa chỉ</b> : 413/16c Lê Văn Sỹ , phường 12 ,
+                    Quận 3 , Tp. Hồ Chí Minh.
+                    <br> <b>Điện thoại</b> : 090.331.9655
+                    <br> <b>Email</b> : haigorishop@gmail.com
+                </div>
+                <div class="col-md-3"> <b>HỖ TRỢ KHÁCH HÀNG</b>
+                    <li> Tìm kiếm</li>
+                    <li>Giới thiệu</li>
+                    <li> Chính sách đổi trả</li>
+                    <li> Chính sách bảo mật</li>
+                    <li> Điều khoản dịch vụ</li>
+                    <li> Liên Hệ</li>
+                </div>
+                <div class="col-md-3"> <b>FANPAGE SHOP</b> <br>
+                    <a href="https://www.facebook.com/GoriVietnam"><img
+                            src="../img/z3342614903300_f17b6285e979841136b49a56f250301c.jpg" alt=""></a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
